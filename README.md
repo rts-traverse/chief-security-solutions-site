@@ -70,7 +70,7 @@ chief-security-solutions-site/
 | Triston's title (co-owner / president) | Real (confirmed in discovery — NOT "operations") |
 | Brad's role + EP/army background | Real (high level — full bio TK from Triston) |
 | Two Brians (Birmingham, Dallas) + Virginia | Real (roster confirmed in discovery; bios TK) |
-| Don Lemon executive-protection footage | **Pending from Triston** — homepage hero placeholder until delivery |
+| Don Lemon executive-protection footage | **Wired** — `images/hero-don-lemon.mp4` (854x480, 27s, H.264 + AAC) plays as homepage hero with `images/hero-don-lemon-poster.jpg` first-paint poster. Source `.mov` archived in traverse-os. Replace with higher-res cut if Triston supplies one. |
 | Hero copy | **Placeholder** — Triston to review/replace |
 | Phone / email / address | **Placeholder** — `[TK]` markers throughout |
 | Reference site link (layout inspiration Triston shared) | **Pending from Triston** |
@@ -105,7 +105,7 @@ This is a **baseline**: solid semantic HTML, accessible interaction patterns, se
 
 ## Future work
 
-- Real Don Lemon footage integration (background video on homepage hero)
+- Higher-resolution Don Lemon footage if Triston supplies one (current cut is 480p)
 - Real team headshots (5 — Triston, Brad, Brian-Birmingham, Brian-Dallas, Virginia)
 - Wire form `action` to chosen form-relay (Formspree / Basin / Web3Forms)
 - Real `og-default.jpg` (1200x630) once brand photography is in hand
