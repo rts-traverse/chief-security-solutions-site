@@ -71,11 +71,15 @@ chief-security-solutions-site/
 | Brad's role + EP/army background | Real (high level — full bio TK from Triston) |
 | Two Brians (Birmingham, Dallas) + Virginia | Real (roster confirmed in discovery; bios TK) |
 | Don Lemon executive-protection footage | **Wired** — `images/hero-don-lemon.mp4` (854x480, 27s, H.264 + AAC) plays as homepage hero with `images/hero-don-lemon-poster.jpg` first-paint poster. Source `.mov` archived in traverse-os. Replace with higher-res cut if Triston supplies one. |
-| Hero copy | **Placeholder** — Triston to review/replace |
-| Phone / email / address | **Placeholder** — `[TK]` markers throughout |
+| Hero copy | **Placeholder** — live base44 site uses "Security Built on Legacy. Delivered with Precision." (see `_handoff/03-base44-content-snapshot.md`); Triston to confirm carry-over |
+| Phone | **Real — (205) 946-7938** wired into all footers, contact aside, and JSON-LD |
+| Address | **Real — 5325 1st Ave N, Birmingham, AL 35212** wired into contact aside and JSON-LD |
+| Email | **Still TK** — not on live site, not in discovery |
+| Service-area states | AL, TN, TX, GA, FL, AZ + nationwide (combined live site + new AZ license from discovery) |
 | Reference site link (layout inspiration Triston shared) | **Pending from Triston** |
 | Reviews / testimonials | None on first pass — legacy Eagle Security Google profile is OFF-LIMITS per discovery |
 | Hiring philosophy / benefits | **Placeholder** on careers page |
+| Live base44 site content | **Captured** in `_handoff/03-base44-content-snapshot.md`. Reconciled against discovery in `_handoff/04-content-reconciliation.md`. |
 
 ## Things explicitly NOT to add
 
