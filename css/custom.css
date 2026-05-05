@@ -1,0 +1,21 @@
+html { scroll-behavior: smooth; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+.skip-link { position: absolute; top: -100px; left: 1rem; }
+.skip-link:focus { top: 1rem; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { opacity: 0; transform: translateY(12px); transition: opacity 600ms ease-out, transform 600ms ease-out; }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+}
+
+/* Brand gradient utilities for credibility bands and hero treatments */
+.gradient-navy   { background: linear-gradient(135deg, #0E1B40 0%, #1A2B5C 100%); }
+.gradient-steel  { background: linear-gradient(135deg, #0E1B40 0%, #6B7280 100%); }
+.gradient-gold   { background: linear-gradient(135deg, #0E1B40 0%, #B08A4A 100%); }
+.gradient-shield { background: linear-gradient(135deg, #0B1220 0%, #0E1B40 60%, #B08A4A 140%); }
