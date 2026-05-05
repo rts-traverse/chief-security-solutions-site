@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1220"/>
-      <stop offset="0.6" stop-color="#0E1B40"/>
-      <stop offset="1" stop-color="#1A2B5C"/>
+      <stop offset="0" stop-color="#0B1220"></stop>
+      <stop offset="0.6" stop-color="#0E1B40"></stop>
+      <stop offset="1" stop-color="#1A2B5C"></stop>
     </linearGradient>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <g fill="#FFFFFF" font-family="Georgia, 'Cormorant Garamond', serif" text-anchor="middle">
+  <rect width="1200" height="630" fill="url(#bg)"></rect>
+  <g fill="#FFFFFF" font-family="Georgia, &#39;Cormorant Garamond&#39;, serif" text-anchor="middle">
     <text x="600" y="280" font-size="76" font-weight="700" letter-spacing="6">CHIEF SECURITY</text>
     <text x="600" y="356" font-size="76" font-weight="700" letter-spacing="6">SOLUTIONS</text>
-    <text x="600" y="430" font-size="22" font-weight="400" letter-spacing="10" fill="#B08A4A">EXPERT GUARDS &#8226; SURVEILLANCE &#8226; EXECUTIVE PROTECTION</text>
+    <text x="600" y="430" font-size="22" font-weight="400" letter-spacing="10" fill="#B08A4A">EXPERT GUARDS • SURVEILLANCE • EXECUTIVE PROTECTION</text>
     <text x="600" y="500" font-size="20" font-weight="400" letter-spacing="6" fill="#FFFFFF" opacity="0.7">LICENSED IN ALABAMA &amp; ARIZONA</text>
   </g>
 </svg>
