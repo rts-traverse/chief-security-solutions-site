@@ -64,10 +64,34 @@
     });
   }
 
+  function stubForms() {
+    document.querySelectorAll('form[action="#"]').forEach(function (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (typeof form.checkValidity === 'function' && !form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+        var msg = document.createElement('div');
+        msg.setAttribute('role', 'status');
+        msg.setAttribute('aria-live', 'polite');
+        msg.setAttribute('tabindex', '-1');
+        msg.className = 'mt-8 px-6 py-10 rounded-lg bg-mist border border-hairline text-center';
+        msg.innerHTML =
+          '<p class="font-serif text-2xl md:text-3xl text-ink leading-tight">Thank you &mdash; we&rsquo;ll be in touch within one business day.</p>' +
+          '<p class="mt-4 text-sm text-steel">For urgent or after-hours requests, call <a href="tel:+12059467938" class="text-navy hover:text-ink">(205) 946-7938</a>.</p>';
+        form.replaceWith(msg);
+        msg.focus({ preventScroll: true });
+        msg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     mobileMenu();
     smoothScroll();
     yearStamp();
     reducedMotionGuard();
+    stubForms();
   });
 })();
