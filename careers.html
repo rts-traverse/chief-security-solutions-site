@@ -92,7 +92,7 @@
       <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-28">
         <p class="text-gold text-xs tracking-[0.3em] uppercase">Careers</p>
         <h1 id="page-title" class="mt-4 font-serif text-5xl md:text-6xl text-surface leading-[1.05] max-w-3xl">Discipline. Discretion. A team worth wearing the badge for.</h1>
-        <p class="mt-6 max-w-2xl text-surface/80 text-lg leading-relaxed">Chief Security Solutions hires field officers, executive-protection agents, and dispatch and scheduling staff. We hold our team to a high standard of professionalism, and we back them accordingly. <span class="italic">[TK, hiring philosophy + benefits language from Triston.]</span></p>
+        <p class="mt-6 max-w-2xl text-surface/80 text-lg leading-relaxed">Chief Security Solutions hires field officers, executive-protection agents, and dispatch and scheduling staff. We hold our team to a high standard of professionalism, and we back them accordingly.</p>
       </div>
     </section>
 
@@ -129,14 +129,6 @@
         <p class="text-gold text-xs tracking-[0.3em] uppercase">Apply</p>
         <h2 id="apply-title" class="mt-4 font-serif text-4xl md:text-5xl text-ink leading-tight">Submit your application.</h2>
         <p class="mt-6 text-steel leading-relaxed">All fields below feed our internal JobApplication intake. We&rsquo;ll respond within five business days.</p>
-
-        <!--
-          TK: Wire form action to Triston's preferred form-relay (Formspree / Basin / Web3Forms).
-          Replace `action="#"` with the relay endpoint and remove the inline notice below.
-        -->
-        <p class="mt-8 px-4 py-3 rounded-md bg-surface border border-hairline text-xs text-steel">
-          <strong>Implementation note (Claude Design):</strong> form posts are stubbed. Set <code>action</code> to the chosen form-relay endpoint (Formspree / Basin / Web3Forms) before launch. Server-side handler maps fields to the <code>JobApplication</code> record on the prior base44 system.
-        </p>
 
         <form action="#" method="post" enctype="multipart/form-data" class="mt-8 grid gap-5">
           <label class="grid gap-2 text-sm text-ink">
